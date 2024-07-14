@@ -27,7 +27,7 @@ Input: One IR sensor detects high density, others detect low or medium density.
 Expected Output: The traffic signal should allocate more green light time to the lane with higher density, while still allowing other lanes to proceed in turn.
 
 
-Test Case 5: Equal Vehicle Density in All Lanes
+**Test Case 5**: Equal Vehicle Density in All Lanes
 Description: Test the system when all lanes have equal vehicle density.
 Input: All IR sensors detect equal vehicle density.
 Expected Output: The traffic signal should switch lanes in a round-robin manner, ensuring equal green light time for all lanes.
